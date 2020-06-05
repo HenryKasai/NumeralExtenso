@@ -12,6 +12,7 @@ namespace NumeralExtenso
             int número = Convert.ToInt32(Console.ReadLine());
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Você digitou o número {número.ToWords()}.");
+            Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Gray;
 
         }
